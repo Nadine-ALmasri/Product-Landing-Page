@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+  }
+  @media (max-width: 500px) {
+    #nav-bar {
+        width: 120px;
+        flex-wrap: wrap;
+
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        width: 300px;
+        margin-left: 0;
+        padding-left: 0;
+       
+        background-color: #151013;
+        
+    }
+
+    body {
+        flex-wrap: wrap;
+    }
+}
+  
+  body {
+    background:radial-gradient(  #e098c1  , #fad3e9 70%);
+    display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 10px;
+      padding-bottom: 100px;
+  
+  }
+  header{
+    position: fixed;
+    top: 0;
+    background:radial-gradient(  #e098c1  , #fad3e9 70%);
+    display: flex;
+    justify-content: space-between;
+ flex-direction: row;
+width: 100%;
+padding-left: 10px;
+   
+  }
+ nav, #nav-bar {
+    float: right;
+ 
+   align-items: flex-end;
+    font-size: 20px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+    color: #000000;
+    background-color: transparent;
+
+ 
+}
+
+.nav-link {
+
+    color: #000000;
+    margin: 10px;
+    display: inline;
+    justify-content: space-between;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.nav-link{
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 50px;
+  
+}
+li :last-of-type{
+    padding-right: 10px;
+}
+
+ul {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;}
+    #header-img{
+    width:80px;
+    height: 80px;
+    padding-top: 10px;
+    float: left;
+    padding-left: 0;
+    padding-right: 10px;
+    }
+ 
+    main{
+        padding-top: 120px;
+    
+    }
+    .portable{
+        width: 50%;
+        height: 450px;
+     padding-left: 200px;
+     float: right;
+     padding-bottom: 50px;
+  
+    }
+    h2 {
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    p{
+        font-size: 24px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-left: 20px;
+    }
+    span {
+        font-weight: bold;
+        font-style: italic;
+        color: #91171d;
+    }
+    form{
+        font-size: 24px;
+        font-weight: bold;
+      
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: block;
+      
+        padding-top: 100px;
+        justify-content: space-around;
+        padding-bottom: 100px;
+     text-align: center;
+        margin: 20px;
+      
+    }
+    input{
+        padding: 20px;
+        width: 30%;
+        background:radial-gradient(  #050405  , #151013 ) ;
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border-radius: 10px;
+        border-color: #000000;
+        color:#000000
+    }
+  #submit{
+        background:radial-gradient(  #7a566a  , #997489 ) ;
+    }
+    #Overveiw{
+        display: inline;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 200px;
+       
+    }
+    #Featurs{
+        padding-top: 200px;
+    }
+    ol{
+        list-style:decimal;
+        font-size: 24px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       
+    }
+    ol li {
+     padding-top: 10px;
+        padding-left: 20px;  
+    }
+
+    #How-To-Use{
+        display:block;
+       padding-top: 100px;
+        justify-content: center;
+        align-items:center;
+    }
+    #video {
+        padding-left: 250px;
+        width: 90%;
+    }
+    h1{
+        text-align: center;
+        font-size: 38px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+    #Dimension-Material{
+padding-top: 100px;
+    }
+    #Pricing{
+        padding-top: 100px;  
+    }
+   
